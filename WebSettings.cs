@@ -1,4 +1,6 @@
-public static class TroyaRestDemo
+namespace WebSettings
+{
+public static class TroyaRest
     {
         public static string BaseURL = "https://uat-sgw.thy.com:8443/mws-rest";
         public static string RestBaseURL = "https://uat-sgw.thy.com:8443/websagent-rest";
@@ -21,3 +23,4 @@ public static class TroyaRestDemo
         public static bool StoreGetFareInitiate = true;
         public static int CommisionRate = 20;
     }
+}
